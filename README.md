@@ -30,12 +30,7 @@ Install the required dependencies: pip install -r requirements.txt
 3. Feel free to explore and enhance the project based on your requirements.
 
 ## Results
-After training and evaluating the SVC model, the following results were obtained:
-
-- Accuracy: 85%
-- Precision: 87%
-- Recall: 83%
-- F1-Score: 85%
+The trained model achieved an accuracy of 85% on the test set. 
  
 ## Contributing
 Contributions to this project are welcome. Feel free to open issues or submit pull requests for any improvements or bug fixes.
