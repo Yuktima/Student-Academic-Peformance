@@ -20,8 +20,8 @@ The project utilizes the Student Performance Dataset (data.csv), which includes 
 - matplotlib
   
 ## Installation:-
-Clone this repository: git clone https://github.com/Yuktima/Student-Academic-Performance.git
-Navigate to the project directory: cd Student-Academic-Performance
+Clone this repository: git clone https://github.com/Yuktima/Student-Academic-Peformance.git
+Navigate to the project directory: cd Student-Academic-Peformance
 Install the required dependencies: pip install -r requirements.txt
 
 ## Usage:-
