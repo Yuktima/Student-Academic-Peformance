@@ -36,7 +36,7 @@ After training and evaluating the SVC model, the following results were obtained
 - Precision: 87%
 - Recall: 83%
 - F1-Score: 85%
-- 
+ 
 ## Contributing
 Contributions to this project are welcome. Feel free to open issues or submit pull requests for any improvements or bug fixes.
 
