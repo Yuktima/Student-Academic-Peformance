@@ -1,30 +1,34 @@
-This repository contains the code and resources for a machine learning project that focuses on predicting student academic performance using Support Vector Machines (SVM).
+This repository contains the code and resources for a machine learning project that focuses on predicting student academic performance using Support Vector Classifier (SVC).
 
 Overview
-The objective of this project is to develop a model that can accurately classify student performance based on various features and attributes. The SVM algorithm has been utilized due to its effectiveness in handling both linear and non-linear classification problems.
+This project focuses on predicting student academic performance using machine learning techniques. It utilizes the Support Vector Classifier (SVC) algorithm from the scikit-learn library. The aim is to analyze various factors influencing student performance and build a predictive model.
 
 Dataset:-
-The project utilizes the Student Performance Dataset, which includes a range of attributes such as student demographics, socio-economic factors, study habits, and past academic performance.
+The project utilizes the Student Performance Dataset (data.csv), which includes a range of attributes such as student demographics, socio-economic factors, study habits, and past academic performance.
 
 Project Structure:-
-- data/: This directory contains the dataset files used for training and evaluation.
-- notebooks/: Jupyter notebooks are used for data exploration, preprocessing, model training, and evaluation.
-- models/: Saved trained SVM models for future use or deployment.
-- src/: Source code for data preprocessing, model training, and evaluation.
-- results/: Results and evaluation metrics obtained from the trained models.
+- `main.py`: Main script to preprocess data and train the SVC model.
+- `data.csv`: Dataset used in the project.
+
+## Requirements
+- Python 3.x
+- scikit-learn
+- pandas
+- numpy
+- matplotlib
   
 Installation:-
-Clone this repository: git clone https://github.com/your-username/academic-performance-svm.git
-Navigate to the project directory: cd academic-performance-svm
+Clone this repository: git clone https://github.com/Yuktima/Student-Academic-Peformance.git
+Navigate to the project directory: cd Student-Academic-Peformance
 Install the required dependencies: pip install -r requirements.txt
 
 Usage:-
-Open the Jupyter notebooks in the notebooks/ directory.
-Follow the instructions within the notebooks to explore the dataset, preprocess the data, train the SVM model, and evaluate its performance.
-Experiment with different hyperparameters and feature engineering techniques to improve the model's accuracy.
+1. Run the `main.py` Jupyter Notebook to see the data preprocessing, feature engineering, model training, and evaluation.
+2. Modify the notebook to experiment with different feature selections, hyperparameter tuning, or other techniques.
+3. Feel free to explore and enhance the project based on your requirements.
 
 Results:-
-After training and evaluating the SVM model, the following results were obtained:
+After training and evaluating the SVC model, the following results were obtained:
 
 - Accuracy: 85%
 - Precision: 87%
